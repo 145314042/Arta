@@ -14,6 +14,10 @@ import java.util.Scanner;
 public class NewClass {
     public static void main(String[] args) {
         int n=new Scanner(System.in).nextInt();
-        
+        int jumlah=0;
+        for (double a = 0; a <= 10; a++) {
+            if (a%2==0) jumlah++;
+        }
+        System.out.println(jumlah);
     }
 }
