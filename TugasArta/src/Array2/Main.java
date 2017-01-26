@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] array;
-        System.out.print("Jumlah n = ");
-        int n = sc.nextInt();
         System.out.println("Nama : Kazami Yuuji");
         System.out.println("No   : 9029");
+        System.out.print("\nJumlah n = ");
+        int n = sc.nextInt();
         if (0 < n && n <= 30) {
             array = new int[n];
             for (int i = 0; i < n; i++) {
