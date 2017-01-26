@@ -20,7 +20,7 @@ public class Main {
                     array[i] = temp;
                 }
             }
-            System.out.print("Array yang telah dimasukkan :");
+            System.out.print("Array yang telah dimasukkan : ");
             for (int i = 0; i < n; i++) {
                 System.out.print(" " + array[i]);
             }
